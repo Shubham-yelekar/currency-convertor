@@ -1,12 +1,15 @@
 import './App.css'
-import { FaBeer } from 'react-icons/fa';
+import InputBox from './compoment/InputBox'
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-2xl text-gray-100'>New Project 🍺 </h1>
+      <h4 className='text-xl '>Currency Convertor 💵 </h4>
+      <div className='bg-slate-100'>
+      <InputBox/>
+      </div>
     </>
   )
 }
